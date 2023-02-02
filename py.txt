@@ -1,0 +1,62 @@
+#  basic list programs in python
+
+# python program to print the list
+# a=[1,2,3,4,5,6]
+# print(a)
+
+# python program to print the element of specific index
+# a=[1,2,3,5]
+# print(a[3])
+
+# python program to add an element in the list by append function
+# a=[1,2,3,4,5,6]
+# a.append(10)
+# print(a)
+
+#python program to add an element in the list by insert function
+# a=[1,2,3,4,5,6]
+# print("original list\n",a)
+# a.insert(2,10)
+# print("element added list\n",a)
+# a.insert(4,20)
+# print(a)
+
+#python program to delete an element from the last 
+# a=[1,2,3,4,5,6,7]
+# print("original list\n",a)
+# a.pop()
+# print("changed list\n",a)
+
+#python program to delete an element of a particular index
+# a=[1,2,3,4,5,6]
+# print("original list\n",a)
+# a.pop(2)
+# print("after deleting the element\n",a)
+
+#python program to delete a particular element
+# a=[1,2,3,4,5]
+# print("before deleting\n",a)
+# a.remove(3)
+# print("after deleting\n",a)
+
+#python program to find the index of any element un the list(by index function)
+# a=[1,2,3,4,5,6]
+# b=a.index(3)
+# print(b)
+
+#python program to find the max and min of any elements 
+# a=[1,2,3,4,6,7]
+# print(max(a))
+# print(min(a))
+
+#python program to reverse a list
+# a=[1,2,3,4,5]
+# a.reverse()
+# print(a)
+
+#python program to sort a list
+# a=[1,5,4,2,7,9,2]
+# a.sort()
+# print(a)
+# a.sort(reverse=True)
+# print(a)
